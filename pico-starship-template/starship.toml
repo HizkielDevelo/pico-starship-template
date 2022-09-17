@@ -1,0 +1,17 @@
+format = """
+[](#395B64)\
+$directory\
+[](fg:#395B64)
+[  ](#eaeaea)
+"""
+
+
+
+
+
+add_newline = true
+
+[directory]
+style = "bg:#395B64 fg:#eaeaea"
+format = "[ $path ]($style)"
+truncation_length = 3
